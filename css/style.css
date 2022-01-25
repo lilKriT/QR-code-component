@@ -28,4 +28,23 @@ body {
 
 .qr-section {
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-component {
+    width: 25%;
+    background-color: var(--white);
+    border-radius: 25px;
+    height: 300px;
+}
+
+.qr-image-div {
+    padding: 15px;
+}
+
+.qr-image-div img {
+    width: 100%;
+    height: auto;
 }
